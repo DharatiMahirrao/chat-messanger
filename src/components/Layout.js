@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 export default function Layout() {
   return (
     <div>
-      <ul>
+      <ul className='header-menu'>
     
     <li><Link to ="/">HomePage </Link></li>
     <li><Link to="LoginPage">LoginPage</Link> </li>
